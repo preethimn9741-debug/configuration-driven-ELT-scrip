@@ -1,0 +1,9 @@
+{
+  "columns_to_keep": ["id", "name", "amount"],
+  "rename_columns": {
+    "name": "customer_name",
+    "amount": "total_amount"
+  },
+  "filter_column": "total_amount",
+  "filter_value": 1000
+}
